@@ -1,13 +1,11 @@
 {
     "name": "victoire/filter-widget",
     "type": "symfony-bundle",
-    "description": "Victoire DCMS Filter widget",
+    "description": "Victoire Filter widget",
     "keywords": [
-        "DCMS",
         "Victoire",
-        "widget",
-        "FriendsofVictoire",
-        "Filter"
+        "Filter",
+        "Widget"
     ],
     "license": "MIT",
     "authors": [
@@ -17,10 +15,8 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "symfony/framework-bundle": "~2.8|~3.0",
+        "victoire/victoire": "~2.3 | ~3.0",
         "beberlei/DoctrineExtensions": "1.0.x-dev",
-        "victoire/victoire": ">=2.2.7 | ~3.0",
         "lexik/form-filter-bundle": "~5.0",
         "troopers/ajax-bundle": "~1.2"
    },
